@@ -1,5 +1,5 @@
 {% set name = "fluidfoam" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 94ecb41c7f7876b364c42316fb816a95789a36d685d2a4fd69c637c8ca84f1e0
+  sha256: ece7bd2d4ab956152208e5c54682308d90d14a479046867df6e67beab60bc594
 
 build:
   number: 0
