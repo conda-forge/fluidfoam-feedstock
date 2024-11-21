@@ -10,7 +10,7 @@ source:
   sha256: 6e6ec58d2b4e1d843bffee5571ee2173f41f567d678784105738210772172c5c
 
 build:
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
   noarch: python
 
@@ -29,7 +29,7 @@ test:
     - fluidfoam
 
 about:
-  home: https://bitbucket.org/fluiddyn/fluidfoam
+  home: https://github.com/fluiddyn/fluidfoam
   license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE.txt

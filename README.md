@@ -1,7 +1,7 @@
 About fluidfoam
 ===============
 
-Home: https://bitbucket.org/fluiddyn/fluidfoam
+Home: https://github.com/fluiddyn/fluidfoam
 
 Package license: GPL-2.0
 
