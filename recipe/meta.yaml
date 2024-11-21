@@ -1,13 +1,13 @@
 {% set name = "fluidfoam" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6e6ec58d2b4e1d843bffee5571ee2173f41f567d678784105738210772172c5c
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 111f86b8316cb42d60ac71085488ed1ae7360d831e472bd35320b1c3888ae075
 
 build:
   number: 1
@@ -18,11 +18,13 @@ requirements:
   host:
     - pip
     - python >=3.8
+    - setuptools
   run:
     - python >=3.8
     - numpy >=1.11
-    - scipy >=0.17
+    - scipy >=1.7.3
     - matplotlib-base >=1.5
+    - netCDF4
 
 test:
   imports:
