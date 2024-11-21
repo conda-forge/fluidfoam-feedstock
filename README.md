@@ -3,7 +3,7 @@ About fluidfoam-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fluidfoam-feedstock/blob/main/LICENSE.txt)
 
-Home: https://bitbucket.org/fluiddyn/fluidfoam
+Home: https://github.com/fluiddyn/fluidfoam
 
 Package license: GPL-3.0-or-later
 
