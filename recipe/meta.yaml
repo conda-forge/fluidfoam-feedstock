@@ -37,7 +37,7 @@ about:
   home: https://github.com/fluiddyn/fluidfoam
   license: GPL-3.0-or-later
   license_family: GPL
-  license_file: LICENSE.txt
+  license_file: LICENSE
   summary: Openfoam PostProcessing Python Tools
 
 extra:
