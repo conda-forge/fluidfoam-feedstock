@@ -1,13 +1,13 @@
 {% set name = "fluidfoam" %}
-{% set version = "0.2.9" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 07ea0668a0dd87300d7f3d349401bde0575314b1a5cd9c2aa9fb94d8d9de6c28
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 9a66a58beffcd26307a6df897b7835172117e55aed6f55183c006c9924caf090
 
 build:
   number: 0
