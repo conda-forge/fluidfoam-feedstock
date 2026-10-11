@@ -1,5 +1,5 @@
 {% set name = "fluidfoam" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9a66a58beffcd26307a6df897b7835172117e55aed6f55183c006c9924caf090
+  sha256: d4cf521acd6f71c3e7f544fd74a51bd5638501572414ad76a5ab2d32c66ab891
 
 build:
   number: 0
